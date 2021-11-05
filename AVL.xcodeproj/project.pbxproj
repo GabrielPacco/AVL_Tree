@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C014342F2734E56F00059AC3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C014342E2734E56F00059AC3 /* main.cpp */; };
+		C014342F2734E56F00059AC3 /* AVL_Tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C014342E2734E56F00059AC3 /* AVL_Tree.cpp */; };
+		C01434392734F1F600059AC3 /* Red_Black_Tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C01434382734F1F600059AC3 /* Red_Black_Tree.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,8 @@
 
 /* Begin PBXFileReference section */
 		C014342B2734E56F00059AC3 /* AVL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AVL; sourceTree = BUILT_PRODUCTS_DIR; };
-		C014342E2734E56F00059AC3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C014342E2734E56F00059AC3 /* AVL_Tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AVL_Tree.cpp; sourceTree = "<group>"; };
+		C01434382734F1F600059AC3 /* Red_Black_Tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Red_Black_Tree.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,8 @@
 		C014342D2734E56F00059AC3 /* AVL */ = {
 			isa = PBXGroup;
 			children = (
-				C014342E2734E56F00059AC3 /* main.cpp */,
+				C014342E2734E56F00059AC3 /* AVL_Tree.cpp */,
+				C01434382734F1F600059AC3 /* Red_Black_Tree.cpp */,
 			);
 			path = AVL;
 			sourceTree = "<group>";
@@ -119,7 +122,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C014342F2734E56F00059AC3 /* main.cpp in Sources */,
+				C014342F2734E56F00059AC3 /* AVL_Tree.cpp in Sources */,
+				C01434392734F1F600059AC3 /* Red_Black_Tree.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
